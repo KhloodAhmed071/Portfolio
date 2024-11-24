@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100svh;
+    max-width: 100svw;
+    max-height: 100svh;
+    background: linear-gradient(to right bottom, rgb(212, 235, 248)30%, rgb(220, 223, 230)50%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    background-color: rgb(151, 193, 223);
+    margin-bottom: 10px;
+    box-shadow: 10px rgb(54, 49, 49);
+    
+}
+
+nav {
+    padding: 10px 60px;
+}
+
+nav a {
+    color: rgb(243, 243, 244);
+    padding-left: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.main button {
+    border: none;
+    background-color: rgb(0, 105, 148);
+    margin-right: 22px;
+}
+.main button:hover{
+    transform: scale(1.1);
+}
+
+.Right {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-radius: 15px;
+    width: 20%;
+    height: 1%;
+    margin-top: 15px;
+}
+
+.Right img {
+    width: 90%;
+    border-radius: 85px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+
+}
+
+.left {
+    flex-wrap: wrap;
+    width: 60%;
+    height: auto;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.left h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.left h1 {
+    margin-bottom: 25px;
+}
+
+.left p {
+    margin-right: 90px;
+    margin-bottom: 25px;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 30px;
+}
+
+.left button {
+    margin-top: 40px;
+    border-radius: 8px;
+    padding: 15px 25px;
+    padding-right: 15px;
+    font-size: 22px;
+    font-weight: 650;
+}
+
+.left button a {
+    color: rgb(246, 246, 247);
+}
+
+.Education {
+    padding-bottom: 40px;
+    border-bottom: 3px dotted rgb(0, 105, 148);
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Education h2 {
+    padding-bottom: 4px;
+    margin-bottom:25px;
+    font-size: 32px;
+}
+
+.Education p {
+    font-size: 22px;
+    padding-bottom: 22px;
+}
+
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    /* للتأكد من أن العناصر تُرتب بشكل جيد */
+    gap: 30px;
+    justify-content: center;
+    /* لمركزتها بشكل جميل */
+    border-bottom: 3px dotted rgb(0, 105, 148);
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: rgb(0, 105, 148);
+    text-decoration: underline;
+}
+
+.Courses {
+    margin-top: 20px;
+    /* إضافة مسافة من الأعلى */
+    padding: 10px;
+    border-radius: 8px;
+    /* زوايا دائرية */
+}
+
+.proj {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 50px;
+    font-size: 32px;
+
+}
+
+.Courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 3px dotted rgb(0, 105, 148);
+    padding-bottom: 100px;
+}
+
+.co {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 32px;
+}
+
+.Courses li {
+    font-size: 22px;
+    font-weight: 550;
+    line-height: 32px;
+}
+
+.Courses li span {
+    font-weight: 350;
+    padding-left: 10px;
+}
+
+.Courses .c {
+    margin-left: 200px;
+}
+
+.Courses .p {
+    margin-left: 115px;
+}
+
+.Courses .w {
+    margin-left: 240px;
+}
+
+.Courses .m {
+    margin-left: 160px;
+}
+.Courses .G {
+    margin-left: 38px;
+}
+
+.to {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.Tools {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 3px dotted rgb(0, 105, 148);
+    padding-bottom: 90px;
+}
+
+.Tools ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 4px;
+    list-style: none;
+}
+
+.Tools ul li {
+    color: rgb(223, 237, 241);
+    font-size: 22px;
+    justify-content: center;
+    margin-right: 50px;
+    line-height: 40px;
+    background-color: rgb(0, 105, 148);
+    border-radius: 12px;
+    padding: 2px 10px;
+    margin-bottom: 20px;
+}
+
+.s {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.Skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 3px dotted rgb(0, 105, 148);
+    padding-bottom: 100px;
+}
+
+.Skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.Skills ul li {
+    font-size: 22px;
+    justify-content: center;
+    margin-right: 40px;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.Contact {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    font-size: 22px;
+}
+
+.phone {
+    display: flex;
+    padding: 15px;
+    margin-right: 30px;
+}
+
+.Gmail {
+    display: flex;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.Con {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.phone i {
+    padding-right: 10px;
+}
+
+.Gmail i {
+    padding-right: 10px;
+}
+
+.card {
+    flex-wrap: wrap;
+    width: 350px;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    border-radius: 15px;
+    background-color: rgb(223, 230, 235);
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 5px 15px 28px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.04);
+}
+
+/* Add some padding inside the card container */
+.container {
+    background-color: rgb(223, 230, 235);
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.Tools,
+.Skills,
+.Tools {
+    margin-right: 200px;
+    margin-left: 200px;
+    flex-wrap: wrap;
+}
+
+.container p,
+h4 {
+    padding-bottom: 20px;
+    color: rgb(30, 29, 29);
+}
+
+.container h4 {
+    padding-bottom: 10px;
+    color: rgb(0, 105, 148);
+    font-size: 18px;
+}
+.Tools img{
+    width: 32px;
+    padding-right: 8px;
+}
